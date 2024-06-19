@@ -1,17 +1,18 @@
 {
   "name": "api-task-automation",
   "version": "1.0.0",
+  "description": "API automation tests for JSONPlaceholder API",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "test": "mocha 'test/**/*.test.js'"
   },
   "keywords": [],
-  "author": "",
+  "author": "Mert Ozer",
   "license": "ISC",
-  "description": "",
   "devDependencies": {
     "axios": "^1.7.2",
-    "chai": "^5.1.1",
+    "chai": "^4.3.4",
     "chai-http": "^5.0.0",
     "mocha": "^10.4.0"
   }
